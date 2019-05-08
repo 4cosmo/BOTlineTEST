@@ -34,7 +34,7 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-$Topic = "NodeMCU1" ;
+$Topic = "ESPino32" ;
 $text = "Test";
 getMqttfromlineMsg($Topic,$text);
 echo "OK3";
